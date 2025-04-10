@@ -1,6 +1,6 @@
 import tkinter.font
 import RPi.GPIO as IO
-import time
+
 IO.setmode(IO.BCM)
 IO.setup(4,IO.OUT)
 IO.setup(5,IO.OUT)
